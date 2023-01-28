@@ -6,6 +6,12 @@ import NavBar from './components/NavBar';
 import Project from './components/Projects';
 import Contact from './components/Contact';
 import SocialMediaNavBar from './components/SocialMediaNavBar';
+import styled from 'styled-components';
+
+const Copyright = styled.p`
+  text-align: center;
+  font-size: .85em
+`
 
 function App() {
   return (
@@ -18,7 +24,7 @@ function App() {
       <Route path="/portfolio/contact" element={<Contact/>}/>
     </Routes>
     <SocialMediaNavBar/>
-    <p>Copyright Fraser Jubb 2023</p>
+    <Copyright>© Fraser Jubb 2023</Copyright>
   </Router>
   )
 }
