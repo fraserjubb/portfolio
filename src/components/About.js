@@ -41,6 +41,7 @@ const About = () => {
             <ProfilePic
             src={profilePic}
             width = "300"
+            alt='Profile Picture'
             ></ProfilePic>
         </Layout>
         </>

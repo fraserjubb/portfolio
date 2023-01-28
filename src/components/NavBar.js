@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./images/jubbzonelogo.png"
 import styled from "styled-components";
 
 const Menu = styled.ul`
@@ -34,15 +33,7 @@ const WebsiteSubheading = styled.h4`
 const NavBar = () =>{
     return(
         <>
-        <WebsiteHeading>Fraser Jubb</WebsiteHeading>
-        <WebsiteSubheading>Game Developer / Digital Artist</WebsiteSubheading>
         <Menu>
-            <li>
-            <img 
-            src={logo}
-            width="100" height="100"
-            ></img>
-            </li>
             <li>
                 <Link to='/portfolio'>Portfolio</Link>
             </li>
