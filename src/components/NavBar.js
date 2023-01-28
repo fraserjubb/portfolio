@@ -4,7 +4,10 @@ import logo from "./images/jubbzonelogo.png"
 import styled from "styled-components";
 
 const Menu = styled.ul`
-    font-size: 1.5em;
+    font-size: 1.25em;
+    font-family: Georgia;
+    font-weight: bold;
+    color: #303C6C;
     list-style: none;
     display: flex;
     align-items: center;

@@ -7,7 +7,7 @@ const Socials = styled.ul`
     align-items: center;
     justify-content: space-evenly;
     filter: grayscale(100%);
-    padding-top: 2em
+    padding-top: 2em;
 `
 
 const SocialMediaNavBar = () => {

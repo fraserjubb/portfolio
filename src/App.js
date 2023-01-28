@@ -11,6 +11,8 @@ import styled from 'styled-components';
 const Copyright = styled.p`
   text-align: center;
   font-size: .85em;
+  font-family: Georgia;
+  color: #303c6c;
 `
 
 
