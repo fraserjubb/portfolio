@@ -12,13 +12,30 @@ const Menu = styled.ul`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* background-color: #0077b6; */
 `
 
+const WebsiteHeading = styled.h1`
+    font-size: 4em;
+    font-family: Georgia;
+    font-weight: bold;
+    color: #303c6c;
+    text-align: center;
+`
+
+const WebsiteSubheading = styled.h4`
+    font-size: 1.3em;
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: 300;
+    color: #303c6c;
+    text-align: center;
+`
 
 const NavBar = () =>{
     return(
         <>
+        <WebsiteHeading>Fraser Jubb</WebsiteHeading>
+        <WebsiteSubheading>Game Developer / Digital Artist</WebsiteSubheading>
         <Menu>
             <li>
             <img 
@@ -27,13 +44,10 @@ const NavBar = () =>{
             ></img>
             </li>
             <li>
-                <Link to='/portfolio'>Home</Link>
+                <Link to='/portfolio'>Portfolio</Link>
             </li>
             <li>
                 <Link to='/portfolio/about'>About</Link>
-            </li>
-            <li>
-                <Link to='/portfolio/projects'>Projects</Link>
             </li>
             <li>
                 <Link to='/portfolio/contact'>Contact</Link>
