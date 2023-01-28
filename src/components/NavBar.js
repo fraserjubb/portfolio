@@ -1,8 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "./images/jubbzonelogo.png"
 
 const NavBar = () =>{
     return(
+        <>
+            <img 
+            src={logo}
+            width="100" height="100"
+            ></img>
         <ul>
             <li>
                 <Link to='/portfolio'>Home</Link>
@@ -17,6 +23,7 @@ const NavBar = () =>{
                 <Link to='/portfolio/contact'>Contact</Link>
             </li>
         </ul>
+        </>
     )
 }
 
