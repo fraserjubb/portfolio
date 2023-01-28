@@ -1,8 +1,9 @@
-.App {
-  text-align: center;
+html {
+  background-image: linear-gradient(to bottom, #F7CE68, #FBAB7E);
+  height: 100vh;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

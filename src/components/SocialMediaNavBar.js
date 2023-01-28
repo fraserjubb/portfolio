@@ -1,11 +1,19 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFacebook, faGithub, faInstagram, faLinkedin, faTwitter, faYoutube} from '@fortawesome/free-brands-svg-icons'
+import styled from 'styled-components'
+
+const Socials = styled.ul`
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    filter: grayscale(100%);
+    padding-top: 2em
+`
 
 const SocialMediaNavBar = () => {
     return(
         <>
-        <h4>Socials</h4>
-        <div>
+        <Socials>
             <a href="https://github.com/fraserjubb" target="_blank">
                 <FontAwesomeIcon icon={faGithub}/>
             </a>
@@ -24,7 +32,7 @@ const SocialMediaNavBar = () => {
             <a href="https://www.linkedin.com/in/fraser-jubb-008593103" target="_blank"> 
             <FontAwesomeIcon icon={faLinkedin}/> 
             </a>
-        </div>
+        </Socials>
 
         </>
     )

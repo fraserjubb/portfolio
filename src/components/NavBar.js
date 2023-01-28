@@ -9,6 +9,7 @@ const Menu = styled.ul`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* background-color: #0077b6; */
 `
 
 

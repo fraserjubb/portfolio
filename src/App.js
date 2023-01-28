@@ -10,8 +10,9 @@ import styled from 'styled-components';
 
 const Copyright = styled.p`
   text-align: center;
-  font-size: .85em
+  font-size: .85em;
 `
+
 
 function App() {
   return (
