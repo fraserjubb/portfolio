@@ -13,23 +13,6 @@ const Menu = styled.ul`
     justify-content: space-evenly;
 `
 
-const WebsiteHeading = styled.h1`
-    font-size: 4em;
-    font-family: Georgia;
-    font-weight: bold;
-    color: #303c6c;
-    text-align: center;
-`
-
-const WebsiteSubheading = styled.h4`
-    font-size: 1.3em;
-    font-family: Georgia;
-    font-style: italic;
-    font-weight: 300;
-    color: #303c6c;
-    text-align: center;
-`
-
 const NavBar = () =>{
     return(
         <>
